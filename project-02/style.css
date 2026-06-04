@@ -66,16 +66,24 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    font-weight: 100;
-    font-size: 58px;
-    text-align: center;
-    margin:auto;    
+
+
+ .ascii-cats {
+  white-space: pre;
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  overflow-x: auto;
+      
 }
 
 img {
     display: block;
     margin: auto;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    width: 50%;
 }
 
 @media (width >= 480px) { 
